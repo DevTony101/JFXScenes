@@ -110,25 +110,12 @@
 
 
     <dependencies>
-        <!-- MigLayout -->
-
+        <!-- Lombok -->
         <dependency>
-            <groupId>com.miglayout</groupId>
-            <artifactId>miglayout-javafx</artifactId>
-            <version>4.2</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+            <scope>provided</scope>
         </dependency>
-
-        <!-- Apache Commons -->
-
-        <dependency>
-            <groupId>commons-lang</groupId>
-            <artifactId>commons-lang</artifactId>
-            <version>2.6</version>
-        </dependency>
-
-        
-
     </dependencies>
-
-
 </project>
