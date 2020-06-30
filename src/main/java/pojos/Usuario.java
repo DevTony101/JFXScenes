@@ -10,5 +10,5 @@ import lombok.Setter;
 public final class Usuario {
     private String nombre;
     private String apellido;
-    private Integer edad;
+    private String ciudad;
 }
