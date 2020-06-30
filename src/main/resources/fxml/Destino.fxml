@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="100.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DestinoController">
+<AnchorPane fx:id="raiz" prefHeight="100.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DestinoController">
    <children>
       <Label layoutX="14.0" layoutY="14.0" text="Resultados">
          <font>
@@ -28,5 +29,6 @@
             <Font name="Segoe UI Bold" size="14.0" />
          </font>
       </Label>
+      <Button layoutX="376.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="110.0" text="Recuperar Datos" />
    </children>
 </AnchorPane>

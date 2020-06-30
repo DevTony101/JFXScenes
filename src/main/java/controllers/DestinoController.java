@@ -1,11 +1,16 @@
 package controllers;
 
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class DestinoController implements Initializable {
+
+    @FXML
+    private Label lblNombre, lblCiudad, lblApellido;
 
     /**
      * Called to initialize a controller after its root element has been
