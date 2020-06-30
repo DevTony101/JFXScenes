@@ -13,14 +13,10 @@ public class MainApp extends Application {
     }
 
     public void start(Stage primaryStage) throws Exception {
-        String fxmlFile = "/fxml/hello.fxml";
-        FXMLLoader loader = new FXMLLoader();
-        Parent rootNode = (Parent) loader.load(getClass().getResourceAsStream(fxmlFile));
-
-        Scene scene = new Scene(rootNode, 400, 200);
-        scene.getStylesheets().add("/styles/styles.css");
-
-        primaryStage.setTitle("Hello JavaFX and Maven");
+        Parent root = FXMLLoader.load(MainApp.class.getClassLoader().getResource("fxml/Home.fxml"));
+        Scene scene = new Scene(root);
+        primaryStage.setTitle("Tutorial JavaFX");
+        primaryStage.setResizable(false);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
