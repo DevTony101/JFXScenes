@@ -29,6 +29,6 @@
             <Font name="Segoe UI Bold" size="14.0" />
          </font>
       </Label>
-      <Button layoutX="376.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="110.0" text="Recuperar Datos" />
+      <Button layoutX="376.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#recuperarDatos" prefHeight="25.0" prefWidth="110.0" text="Recuperar Datos" />
    </children>
 </AnchorPane>
